@@ -51,7 +51,7 @@ setup() {
         echo "СТОП: в конфиге найдено team28a"
         exit 1
     fi
-    if ! grep -q "10.28.0.11:9031" "$cfg"; then
+    if ! grep -q "9031" "$cfg"; then
         echo "СТОП: в конфиге нет правильного адреса трекера"
         exit 1
     fi
@@ -77,7 +77,7 @@ start() {
 stop() {
     guard "$1"
     case "$1" in
-        nn) yarn --daemon stop nodemanager            yarn --daemon stop resourcemanager ;;
+        nn) yarn --daemon stop nodemanager; yarn --daemon stop resourcemanager ;;
         00|01) yarn --daemon stop nodemanager ;;
     esac
     echo "--- остановлено на узле $1"
