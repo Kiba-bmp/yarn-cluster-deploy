@@ -212,6 +212,9 @@ http://localhost:9044   NodeManager на team-28-01
 Если какой-то локальный порт занят, подставьте любой свободный, например 19043 вместо 9043.
 
 Заходить на 8088 или 8042 нельзя, это веб-интерфейсы кластера Team A.
+![About the Cluster](screenshots/cluster.png)
+![NodeManager information](screenshots/nodemanager.png)
+![Nodes of the Cluster](screenshots/nodes.png)
 
 ## Что лежит в репозитории
 
@@ -227,9 +230,7 @@ evidence/y-00.txt - то же для team-28-00.
 
 evidence/y-01.txt - то же для team-28-01.
 
-evidence/yarn-rm-webui.png - веб-интерфейс ResourceManager, вкладка Cluster Nodes с тремя нодами.
-
-evidence/yarn-nm-nn.png, yarn-nm-00.png, yarn-nm-01.png - веб-интерфейсы NodeManager на каждом узле.
+screenshots/cluster.png, nodemanager.png, nodes.png - webUI
 
 ## Как повторить
 
