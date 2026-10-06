@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <property>
+        <name>yarn.resourcemanager.hostname</name>
+        <value>team-28-nn</value>
+    </property>
+    <property>
+        <name>yarn.resourcemanager.webapp.address</name>
+        <value>0.0.0.0:9088</value>
+    </property>
+    <property>
+        <name>yarn.resourcemanager.scheduler.address</name>
+        <value>0.0.0.0:9030</value>
+    </property>
+    <property>
+        <name>yarn.resourcemanager.resource-tracker.address</name>
+        <value>0.0.0.0:9031</value>
+    </property>
+    <property>
+        <name>yarn.resourcemanager.admin.address</name>
+        <value>0.0.0.0:9032</value>
+    </property>
+    <property>
+        <name>yarn.nodemanager.resource-tracker.address</name>
+        <value>team-28-nn:9031</value>
+    </property>
+    <property>
+        <name>yarn.nodemanager.webapp.address</name>
+        <value>0.0.0.0:9042</value>
+    </property>
+    <property>
+        <name>yarn.nodemanager.poke.address</name>
+        <value>0.0.0.0:9041</value>
+    </property>
+    <property>
+        <name>yarn.nodemanager.aux-services</name>
+        <value>mapreduce_shuffle</value>
+    </property>
+    <property>
+        <name>yarn.nodemanager.hostname</name>
+        <value>team-28-nn</value>
+    </property>
+</configuration>
